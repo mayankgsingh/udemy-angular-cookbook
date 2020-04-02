@@ -10,14 +10,4 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'cook-book';
   loadedFeature:string = 'recipe';
-
-  onNavigate(feature:string) {
-    this.loadedFeature = feature;
-    if('recipe' === feature) {
-
-    }
-    if('shopping-list' === feature) {
-
-    }
-  }
 }
